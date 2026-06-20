@@ -1,0 +1,7 @@
+# Deployment requirements — for Streamlit Community Cloud and dashboard-only local runs.
+# (No torch/shap: the cloud app reads pre-computed CSVs from outputs/, it does not train.)
+# For running the FULL pipeline locally, use requirements-full.txt instead.
+pandas>=2.0
+numpy>=1.24
+streamlit>=1.30
+plotly>=5.18
