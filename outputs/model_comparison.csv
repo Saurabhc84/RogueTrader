@@ -1,0 +1,7 @@
+,family,auroc,precision,recall,f1,false_positive_rate,mean_lead_days
+LSTM autoencoder (yours),Temporal (yours),0.999,1.0,0.899,0.947,0.0,-3.333
+GRU autoencoder,Temporal,0.998,1.0,0.883,0.938,0.0,-4.667
+Random Forest,Supervised,0.994,0.989,0.863,0.921,0.0,-1.0
+Gradient Boosting,Supervised,0.992,0.938,0.892,0.915,0.001,43.0
+Logistic Regression,Supervised,0.99,0.641,0.912,0.753,0.013,-1.0
+ARIMA residual,Temporal,0.74,0.227,0.226,0.227,0.023,28.0

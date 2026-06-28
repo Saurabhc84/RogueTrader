@@ -1,0 +1,7 @@
+check,column,count
+rows_in,-,12500
+rows_out,-,12500
+duplicates_removed,trader_id+day,0
+outliers_winsorised,position_notional_m,126
+outliers_winsorised,n_trades,84
+outliers_winsorised,daily_pnl_m,126
